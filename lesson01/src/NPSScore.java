@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class zadanie01 {
+public class NPSScore {
     public static void main(String[] args) {
         System.out.println("Oceń nasz krem przeciw zmarszczom od 0 do 10: ");
         int ocena = new Scanner(System.in).nextInt();
