@@ -10,7 +10,7 @@ public class NPSScore {
 
         if ((ocena >= 0) && (ocena <= 6)) {
             System.out.println("jesteś detractorem");
-        } else if ((ocena >= 7) && (ocena <= 8)) {
+        } else if ((ocena == 7) || (ocena == 8)) {
             System.out.println("jesteś neutralny");
         } else if ((ocena >= 9) && (ocena <= 10)) {
             System.out.println("promujesz nasz produkt");
