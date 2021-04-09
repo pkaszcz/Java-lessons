@@ -1,5 +1,5 @@
 public class LoopTable {
-//    Napisz program rysujący choinkę o zadanej przez użytkownika wysokości
+
 //    Napisz program tworzący "tabliczkę działań" (x od 0 do 10, y od 0 do 10) wypisanie napisu "\t" tworzy tabulator (odstęp)
 //
 //    X 	Y 	X+Y 	X-Y 	X*Y 	X/Y
