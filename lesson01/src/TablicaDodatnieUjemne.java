@@ -8,16 +8,23 @@ public class TablicaDodatnieUjemne {
         for (int i = 0; i < len; i++) {
             //tablica:{1, -2, 3, -4, 5, -6, ...}
             tab[i] = x;
-            x += 2;
+            x += 1;
         }
 
-        System.out.print("tablica:{");
+            System.out.print("tablica:{");
 
-        for (int i = 0; i < len; i++) {
-            System.out.print(tab[i]);
-            if (i < len - 1) System.out.print(",");
+            for (int i = 0; i < len; i++) {
+
+                if (tab[i] % 2 == 0) { tab[i] *= -1;}
+
+                System.out.print(tab[i]);
+
+                if (i < len - 1) System.out.print(",");
+            }
+            System.out.print("}");
+
         }
-        System.out.print("}");
-
     }
-}
+
+
+
