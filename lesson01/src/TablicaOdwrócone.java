@@ -1,10 +1,16 @@
-public class TablicaKwadrat {
-    public static void main(String[] args) {
-        int[] tab = new int[20];
-        int len = tab.length;
+public class TablicaOdwrócone {
 
+    // tablica wyjściowa:{100,...,16,9,4,1}.
+
+    public static void main(String[] args) {
+        int[] tab = new int [10];
+
+        int len = tab.length;
+        int x = 1;
         for (int i = 0; i < len; i++) {
-            tab[i] = i + 1;
+
+            tab[i] = x;
+            x += 1;
         }
 
         System.out.print("tablica:{");
@@ -13,6 +19,10 @@ public class TablicaKwadrat {
             System.out.print(tab[i] * tab[i]);
             if (i < len - 1) System.out.print(",");
         }
-        System.out.print("}");
+
+
+
+
+
     }
 }
