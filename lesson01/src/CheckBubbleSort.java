@@ -25,13 +25,16 @@ public class CheckBubbleSort {
         for (int i = 0; i < len; i++) {
             System.out.print(tab[i] + " ");
         }
+
         System.out.println("");
+
+        boolean isSorted = true;
         for (int i = 0; i < len - 1; i++) {
-            if (tab[i] <= tab[i + 1]) {
-                System.out.println(i + ": true");
-            } else {
-                System.out.println(i + ": false");
+            if (tab[i] > tab[i + 1]) {
+                isSorted = false;
+                break;
             }
         }
+        System.out.println("is sorted = " + isSorted);
     }
 }
